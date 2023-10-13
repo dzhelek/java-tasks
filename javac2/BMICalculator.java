@@ -1,4 +1,4 @@
-package second;
+package javac2;
 
 import java.util.Scanner;
 

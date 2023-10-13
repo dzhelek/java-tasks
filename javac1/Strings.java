@@ -1,4 +1,4 @@
-package first;
+package javac1;
 import java.util.Scanner;
 
 public class Strings {
