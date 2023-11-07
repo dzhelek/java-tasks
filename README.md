@@ -1,4 +1,4 @@
 # java-tasks
 a repository for my Java classes and tasks at the Technical University of Sofia
 * javac - tasks from [javac.bg](https://javac.bg)
-* lab - tasks from laboratory exercices
+* lab - tasks from [laboratory exercices](https://github.com/igergow/java-easy-exams)
