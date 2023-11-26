@@ -1,2 +1,1 @@
-This is some new text. More new text.
-ok this is another new one
+Това е ново съдържание. Още ново съдържание.

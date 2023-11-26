@@ -11,9 +11,9 @@ public class TextReplace {
         System.out.println(Files.exists(path));
         try {
             var content = Files.readString(path);
-            var pattern = Pattern.compile("old");
+            var pattern = Pattern.compile("старо");
             var matcher = pattern.matcher(content);
-            var newContent = matcher.replaceAll("new");
+            var newContent = matcher.replaceAll("ново");
             Files.writeString(path, newContent);
         }
         catch (IOException e) {
