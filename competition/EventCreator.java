@@ -1,7 +1,7 @@
 package competition;
 
 public class EventCreator {
-    private String eventType;
+    // private String eventType;
 
     public static Event getEvent(String competitionType) throws EventException{
         return switch (competitionType) {

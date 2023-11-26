@@ -1,9 +1,5 @@
 package competition;
 
-import java.nio.charset.CoderMalfunctionError;
-
-import javax.swing.undo.CompoundEdit;
-
 public class Main {
     public static void placeBet(Event ob, int competitorId, double bet) {
         for (Competitor c : ob.getLineup()) {
@@ -28,7 +24,6 @@ public class Main {
         }
         catch (EventException e) {
             System.out.println(e.getMessage());
-            // return;
         }
 
         Competitor[] basketCompetitors = new Competitor[]{
@@ -44,6 +39,7 @@ public class Main {
             EventCreator.fillLineup(basket, basketCompetitors);
             EventCreator.fillLineup(tennis, tennisCompetitors);
             EventCreator.fillLineup(swimming, swimmingCompetitors);
+            EventCreator.fillLineup(sing, swimmingCompetitors);
         }
         catch (EmptyLineupException e) {
             System.out.println(e.getMessage());
