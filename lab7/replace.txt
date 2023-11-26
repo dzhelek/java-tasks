@@ -1,1 +1,2 @@
 Това е ново съдържание. Още ново съдържание.
+Check out this website: https://www.example.com and this one: http://www.test.com.
