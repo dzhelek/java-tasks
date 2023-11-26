@@ -6,7 +6,7 @@ public class Main {
         try {
             b.sellBook(15);
         }
-        catch OutOfStockException (e) {
+        catch (OutOfStockException e) {
             System.out.println(e.getMessage());
         }
    } 
