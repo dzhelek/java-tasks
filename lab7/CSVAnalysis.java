@@ -19,7 +19,7 @@ public class CSVAnalysis {
                 record = line.split(",");
                 averageAge += Integer.parseInt(record[1]);
                 if (cityCount.containsKey(record[2])) {
-                    cityCount.replace(record[2], cityCount.get(record[2]));
+                    cityCount.replace(record[2], cityCount.get(record[2])+1);
                 }
                 else {
                     cityCount.put(record[2], 1);
