@@ -23,8 +23,8 @@ public class Client {
         ){
             var text = reader.nextLine(); // read data from the server
             System.out.println(text);
-            var bankNumber = scan.nextInt();
-            writer.println(bankNumber);
+            var bankNumber = scan.nextInt(); // read data from user
+            writer.println(bankNumber); // send to server
             
             do {
                 text = reader.nextLine();
