@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class MyFirstClass {
 
     public static void main(String... argc) {
@@ -14,6 +16,11 @@ public class MyFirstClass {
         System.out.println("Hello world!");
         System.out.println(concat);
         System.out.println(cat);
+
+        var scan = new Scanner(System.in);
+        while (scan.hasNextLine()) {
+            System.out.println(scan.nextLine());
+        }
     }
 
 }
